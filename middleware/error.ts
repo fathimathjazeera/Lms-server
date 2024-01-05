@@ -1,6 +1,6 @@
 import ErrorHandler from "../utils/ErrorHandler";
 import { NextFunction, Request, Response } from "express";
-module.exports = (
+export const ErrorMiddleware = (
   err: any,
   req: Request,
   res: Response,
